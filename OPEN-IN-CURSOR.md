@@ -34,6 +34,14 @@ npm run dev
 - 勿把任何 API／PAT commit 進 repo
 
 ## 可選 zip
-若對方沒 GitHub 權限，可用交接 zip（無 node_modules）：解壓後 `npm install && npm run dev`。
+若對方沒 GitHub 權限，可用交接 zip（無 node_modules）。
+解壓後務必用 Cursor **Open Folder 選裡面的 `employee-todo` 資料夾**（要看得到 `package.json` 與 `開始用.txt`），再執行：
+
+```bash
+npm install
+npm run dev
+```
+
+**更穩仍建議直接 Clone GitHub**（上方指令），不要只開外層空資料夾。
 
 ---
